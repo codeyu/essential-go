@@ -1,0 +1,23 @@
+{
+    "author": "codeyu",
+    "description": "本书之目的是为程序员提供清晰明确的 Go 语言知识。既可入门，亦可进阶。",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "CodeYu": "http://codeyu.com"
+        }
+    },
+    "plugins": [],
+    "title": "Go 本质论",
+    "variables": {},
+    "root":"./book",
+    "gitbook": "3.2.3"
+}

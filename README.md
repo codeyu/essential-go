@@ -1,4 +1,7 @@
-# Go 本质论
+# Go 本质论 
+
+[![Build status](https://ci.appveyor.com/api/projects/status/hfp5nmgk73yw5w1y?svg=true)](https://ci.appveyor.com/project/codeyu/essential-go)
+
 <img width="180px" src="https://www.programming-books.io/covers/Go.png">
 
 [**Go 本质论**](https://www.programming-books.io/essential/go/) 是一本免费的 Go 语言编程书。
