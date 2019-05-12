@@ -7,16 +7,16 @@
 $ sudo apt-get update
 $ sudo apt-get install golang-go
 ```
-Ubuntu 提供的软件包经常过时。每6个月发布一个新版本的Go，但Ubuntu发行速度较慢。
+Ubuntu 提供的软件包经常过时。Go 每6个月发布一个新版本，但 Ubuntu 发行速度较慢。
 
-通常可以通过`ppa:gophers/archive`包存储库获得更新的版本：
+通常可以通过 `ppa:gophers/archive` 包存储库获得更新的版本：
 
 ```bash
 $ sudo add-apt-repository ppa:gophers/archive
 $ sudo apt-get update
 $ sudo apt-get install golang-1.11-go
 ```
-如果那些版本仍然不满足要求，你可以安装linux二进制安装包。
+如果那些版本仍不满足要求，你可以安装linux二进制安装包。
 
 ### 使用二进制安装包
 这些说明适用于大多数Linux发行版：

@@ -8,7 +8,7 @@
 
 `go run` 对于单文件程序的临时执行非常有用。
 
-您还可以创建可执行文件使用 `go build hello_world.go`。
+您还可以使用 `go build hello_world.go` 创建可执行文件。
 
 在 Windows 上，这将创建 `.\hello_world.exe` 可执行文件。
 
