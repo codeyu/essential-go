@@ -28,7 +28,6 @@ install:
   # - npm install grunt-gh-pages --save-dev
   - gitbook install
 build_script:
-  - gitbook install
   - gitbook build
 test: off
 on_success:
@@ -45,4 +44,4 @@ on_success:
   - ps: Copy-Item ..\_book\* . -Recurse
   - git add --all .
   - git commit -m "update book"
-  - git push origin gh-pages
+  - git push -f origin gh-pages
