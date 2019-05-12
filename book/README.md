@@ -3,7 +3,7 @@
 ## Go 本质论
 <img width="180px" src="https://www.programming-books.io/covers/Go.png">
 
-[**Go 本质论**](https://www.programming-books.io/essential/go/) 是一本免费的 Go 语言编程书。
+[**Go 本质论**](http://codeyu.com/essential-go/) 是一本免费的 Go 语言编程书。
 
 本书是 [**Essential Go**](https://www.programming-books.io/essential/go/) 的中文翻译版本。
 
