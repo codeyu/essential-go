@@ -12,6 +12,7 @@ Go 具有与 [IEEE 754 标准](https://zh.wikipedia.org/wiki/IEEE_754)相符合�
 
 ## 用 `Sprintf` 函数将 float 转换为 string
 <iframe src='https://glot.io/snippets/fapbqlbua1/embed' frameborder='0' scrolling='no' sandbox='allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts' width='600' height='400'></iframe>
+
 与 `fmt.Sprintf` 相比， `strconv.FormatFloat` 更快。
 
 ## 用 `ParseFloat` 函数将 string 转换为 float
