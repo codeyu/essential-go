@@ -545,7 +545,23 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x5B57;&#x7B26;&#x578B;">&#x5B57;&#x7B26;&#x578B;</h1>
+                                <h1 id="&#x5B57;&#x7B26;&#x548C;-rune">&#x5B57;&#x7B26;&#x548C; rune</h1>
+<p>Go&#x6709;&#x4E24;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x5B57;&#x7B26;&#xFF1A;</p>
+<ul>
+<li><code>byte</code> &#x662F;&#x4E00;&#x4E2A; 1 &#x5B57;&#x8282;&#x7684;&#x503C;&#xFF0C;<code>uint8</code> &#x7C7B;&#x578B;&#x7684;&#x522B;&#x540D;</li>
+<li><code>rune</code> &#x662F;&#x4E00;&#x4E2A; 4 &#x5B57;&#x8282;&#x7684; Unicode &#x4EE3;&#x7801;&#x70B9;&#xFF0C;<code>int32</code> &#x7C7B;&#x578B;&#x7684;&#x522B;&#x540D;</li>
+</ul>
+<p><code>byte</code> &#x548C; <code>rune</code> &#x7684;<a href="zero-values.html">&#x96F6;&#x503C;</a>&#x4E3A; 0&#x3002;</p>
+<h2 id="&#x4F7F;&#x7528;-byte-&#x904D;&#x5386;-string">&#x4F7F;&#x7528; byte &#x904D;&#x5386; string</h2>
+<iframe src="https://glot.io/snippets/fapbqod2xr/embed" frameborder="0" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts" width="600" height="400"></iframe>
+
+<h2 id="&#x4F7F;&#x7528;-rune-&#x904D;&#x5386;-string">&#x4F7F;&#x7528; rune &#x904D;&#x5386; string</h2>
+ <iframe src="https://glot.io/snippets/fapbqp3ez8/embed" frameborder="0" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts" width="600" height="400"></iframe>
+
+<p>&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x4E00;&#x4E2A; byte &#x6570;&#x7EC4;&#x3002;</p>
+<p>&#x5F53;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x8FED;&#x4EE3;&#x4E3A; rune &#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x5047;&#x8BBE;&#x8BE5;&#x5B57;&#x7B26;&#x4E32;&#x662F; Unicode &#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x7F16;&#x7801;&#x4E3A; UTF-8&#x3002;</p>
+<p>UTF-8 &#x662F;&#x4E00;&#x79CD;&#x53EF;&#x53D8;&#x957F;&#x5EA6;&#x7F16;&#x7801;&#xFF0C;&#x5176;&#x4E2D; rune &#x53EF;&#x4EE5;&#x7F16;&#x7801;&#x4E3A; 1,2,3 &#x6216; 4 &#x4E2A;&#x5B57;&#x8282;&#x3002;</p>
+<p>&#x8FD4;&#x56DE;&#x7684;&#x7D22;&#x5F15; <code>i</code> &#x662F; rune &#x5F00;&#x59CB;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x7684;&#x5B57;&#x8282;&#x4F4D;&#x7F6E;&#x3002;&#x8FD9;&#x4E0D;&#x662F;&#x4E00;&#x4E2A; rune &#x8BA1;&#x6570;&#x3002;</p>
 
                                 
                                 </section>
@@ -589,7 +605,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"字符型","level":"1.3.4","depth":2,"next":{"title":"字符串","level":"1.3.5","depth":2,"path":"chapter2/strings.md","ref":"chapter2/strings.md","articles":[]},"previous":{"title":"浮点数","level":"1.3.3","depth":2,"path":"chapter2/floating-point-numbers.md","ref":"chapter2/floating-point-numbers.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"codeyu","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Go 本质论","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"CodeYu":"http://codeyu.com"}},"gitbook":"3.2.3","description":"本书之目的是为程序员提供清晰明确的 Go 语言知识。既可入门，亦可进阶。","extension":null},"file":{"path":"chapter2/characters-and-runes.md","mtime":"2019-05-16T03:16:20.414Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-16T03:17:24.188Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"字符型","level":"1.3.4","depth":2,"next":{"title":"字符串","level":"1.3.5","depth":2,"path":"chapter2/strings.md","ref":"chapter2/strings.md","articles":[]},"previous":{"title":"浮点数","level":"1.3.3","depth":2,"path":"chapter2/floating-point-numbers.md","ref":"chapter2/floating-point-numbers.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"codeyu","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Go 本质论","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"CodeYu":"http://codeyu.com"}},"gitbook":"3.2.3","description":"本书之目的是为程序员提供清晰明确的 Go 语言知识。既可入门，亦可进阶。","extension":null},"file":{"path":"chapter2/characters-and-runes.md","mtime":"2019-05-26T06:04:19.840Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-26T06:05:23.752Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
